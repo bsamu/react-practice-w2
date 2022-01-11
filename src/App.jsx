@@ -1,11 +1,14 @@
+import { useState } from "react";
+
 const App = () => {
 
-  let boolComp = true
+  let [shouldShowLanding, setShouldShowLanding] = useState(1)
 
   return (
     <div>
-      <p>Hello world</p>
-    </div >
+      <button onClick={shouldShowLandingFunction}>Toggle page</button>
+      { shouldShowLanding ? <p>Landing</p> : <p>Home</p> }
+    </div>
   );
   
 }
