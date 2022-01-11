@@ -2,7 +2,13 @@ import { useState } from "react";
 
 const App = () => {
 
-  let [shouldShowLanding, setShouldShowLanding] = useState(1)
+
+  
+  let [shouldShowLanding, setShouldShowLanding] = useState(true)
+
+  const shouldShowLandingFunction = () => {
+    setShouldShowLanding(!shouldShow)
+  }
 
   return (
     <div>
