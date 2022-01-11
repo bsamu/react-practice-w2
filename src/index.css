@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-color: red;
 }
 
 #first {
@@ -11,7 +11,7 @@ body {
 }
 
 .card {
-  border: 3px solid black
+  border: 3px solid black;
 }
 
 .card-content {
